@@ -16,17 +16,17 @@
 		src="https://code.jquery.com/jquery-3.2.1.min.js"
 		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 		crossorigin="anonymous"></script>
-	<script src="./libs/CLDRPluralRuleParser/src/CLDRPluralRuleParser.js"></script>
+	<script src="../libs/CLDRPluralRuleParser/src/CLDRPluralRuleParser.js"></script>
 	<!-- Source -->
-	<script src="./src/jquery.i18n.js"></script>
-	<script src="./src/jquery.i18n.messagestore.js"></script>
-	<script src="./src/jquery.i18n.fallbacks.js"></script>
-	<script src="./src/jquery.i18n.parser.js"></script>
-	<script src="./src/jquery.i18n.emitter.js"></script>
-	<script src="./src/jquery.i18n.language.js"></script>
-	<script src="./src/languages/he.js"></script>
-	<script src="./src/languages/fi.js"></script>
-	<script src="./src/languages/ml.js"></script>
+	<script src="../src/jquery.i18n.js"></script>
+	<script src="../src/jquery.i18n.messagestore.js"></script>
+	<script src="../src/jquery.i18n.fallbacks.js"></script>
+	<script src="../src/jquery.i18n.parser.js"></script>
+	<script src="../src/jquery.i18n.emitter.js"></script>
+	<script src="../src/jquery.i18n.language.js"></script>
+	<script src="../src/languages/he.js"></script>
+	<script src="../src/languages/fi.js"></script>
+	<script src="../src/languages/ml.js"></script>
 
 	<!-- Demo -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -34,44 +34,14 @@
 	<script src="js/demo.js"></script>
 </head>
 
-<body class="accueil-visible">
-
-
-
-
-
-
-
-	<header class="headermobile mobile col-12">
-		<button id="releaseMenu" ></button>
-		<a class="target-portfolio" href="#portfolio"><h1>Guillaume Tarsiguel</h1></a>
-		
-    <nav class="menu menumobile">	
-      <a class="target-a-propos" href="#a-propos">À propos</a>
-      <a class="target-portfolio" href="#portfolio">Mes projets</a>
-      <a class="target-contact" href="#contact">Contact</a>
-    </nav>
-	</header>	
-
-	
-	<div id="container" class="col-12">
-		<header class="headerstandard headerstandard-shrink">
-      <a class="target-portfolio" href="#portfolio"><h1> Guillaume Tarsiguel</h1></a>
-			<div class="headerstandard-inner">
-				<nav class="menu menustandard">
-          <a class="target-a-propos" href="#a-propos">À propos</a>
-          <a class="target-portfolio" href="#portfolio">Mes projets</a>
-          <a class="target-contact" href="#contact">Contact</a>
-				</nav>
-			</div>
-		
-
-
-
-
-
-
-
+<body>
+	<div class="container">
+		<header id="overview" class="subhead well">
+			<h1>jQuery i18n Demo</h1>
+			<p class="lead">
+				jQuery i18n Demo
+			</p>
+		</header>
 		<div class="lead">
 			<select class="input-small person">
 				<option data-i18n='Meera' value="female">Meera</option>
@@ -95,14 +65,11 @@
 		</div>
 		<div class="result lead alert alert-success"><!-- The message will be filled here automatically. --></div>
 		<hr/>
-
-
-
-
-
-
-
-
-
+		<footer>
+			<p>
+				&copy; Copyright by Santhosh Thottingal ( santhosh dot thottingal at gmail dot com ).
+			</p>
+		</footer>
+	</div>
 </body>
 </html>
