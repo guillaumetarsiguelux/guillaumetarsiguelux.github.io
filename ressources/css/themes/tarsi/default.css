@@ -1,0 +1,321 @@
+/******************************************************
+	
+	Glassero Par Patrick Roux : http://www.kicoe.net
+	One Page Responsive HTML Template
+	
+	Theme : Retro
+	
+	Sections of stylesheet:
+		$INDEX0 - COULEURS UTILISEES
+		$INDEX1 - GENERAL
+		$INDEX3 - MENU COMMON
+		$INDEX5 - HEADER STANDARD REDUIT
+		$INDEX6 - HEADER MOBILE
+		$INDEX7 - MAIN CONTENT
+		$INDEX8 - PORTFOLIO
+		$INDEX9 - THE TEAM
+		$INDEX10 - CONTACT
+		$INDEX11 - MEDIA QUERIES : TABLETS
+		$INDEX12 - MEDIA QUERIES : SMARTPHONES
+		
+******************************************************/	
+
+
+
+
+
+
+/******************************************************
+
+	$INDEX0 - COULEURS UTILISEES
+	
+******************************************************/	
+
+/*
+
+	#e4dfda
+	#4281a4
+	#F0F0F0
+	#rgba(30, 30, 30, 0.6)
+	#222222
+
+*/
+
+
+
+
+
+/******************************************************
+
+	$INDEX1 - GENERAL
+	
+******************************************************/	
+
+
+body {
+    color: black;
+    background-color : #f4f4f4 ;
+}
+
+#container {
+	background-color: #f4f4f4;
+	color : black;
+}
+
+
+header{
+	background: #4281a4;
+}
+
+::selection{
+	background: #4281a4;
+}
+::-moz-selection{
+	background: #4281a4;
+}
+::-webkit-selection{
+	background: #4281a4;
+}
+
+a{
+	color: #F0F0F0;
+}
+
+a:hover {
+	color: #000;
+}
+
+h1, h2, h3{
+	color: #151756;
+	border-color: #151756;
+}
+
+hr{
+	border-color: #151756;
+}
+
+
+
+/******************************************************
+
+	$INDEX3 - MENU COMMON
+	
+******************************************************/	
+
+
+nav a{
+	color: white;
+}
+
+nav a.current, nav a:hover{
+    background: #4281a4;
+    color: white !important;
+}
+
+
+
+
+
+
+
+/******************************************************
+
+	$INDEX5 - HEADER STANDARD REDUIT
+	
+******************************************************/	
+
+
+
+ 
+.headerstandard.headerstandard-shrink h1 {
+	background: transparent url('images/icone.png') center left no-repeat;
+	text-indent: 60px;
+}
+
+
+
+
+/******************************************************
+
+	$INDEX6 - HEADER MOBILE
+	
+******************************************************/	
+
+
+
+
+
+header.headermobile button {
+	background: transparent url('images/nav-icon.png') center center no-repeat;
+}
+
+		
+		
+		
+	
+/******************************************************
+
+	$INDEX7 - MAIN CONTENT
+	
+******************************************************/	
+
+
+.accueil-visible{ background: #2d6648; }
+.a-propos-visible{ background: #2d6648; }
+.portfolio-visible{ background: #2d6648; }
+.contact-visible{ background: #3b825c; }
+
+
+
+#main .home h1{
+	background: transparent url('images/logo.png') center center no-repeat;
+}
+
+
+.quote{
+	background: rgba(30, 30, 30, 0.6) url('images/quote.png') 15px 15px no-repeat;
+	padding: 20px 20px 20px 80px;
+}	
+
+.scroll {
+    background: url("images/scroll.png") no-repeat scroll center top transparent;
+}
+.scroll:hover{
+	background: url("images/scroll.png") bottom center no-repeat;
+}
+
+.progress {
+	background: #F0F0F0;
+}
+
+.progress .bar {
+    background: #4281a4;
+}
+
+.scroll {
+    background: url("images/scroll.png") no-repeat scroll center top transparent;
+}
+
+.scroll:hover{
+	background: url("images/scroll.png") bottom center no-repeat;
+}
+
+.social_button-name {
+	color : black;
+}
+
+
+/******************************************************
+
+	$INDEX8 - PORTFOLIO
+	
+******************************************************/	
+
+
+
+
+.grid figcaption {
+	background: #4281a4;
+	color: #F0F0F0;	
+}
+
+.grid figcaption a {
+	background: #F0F0F0;
+	color: #4281a4;
+}
+
+.grid figcaption h3 {
+	color: #fff;
+}
+
+
+
+
+
+/******************************************************
+
+	$INDEX10 - CONTACT
+	
+******************************************************/	
+
+
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+    background:#FFF;
+	box-shadow:inset 0 1px 2px #e4dfda, 0 1px 0 #FFF;
+	-webkit-box-shadow:inset 0 1px 2px #e4dfda, 0 1px 0 #FFF;
+	-moz-box-shadow:inset 0 1px 2px #e4dfda, 0 1px 0 #FFF;
+}
+#contact-form button[type="submit"] {
+    background:#4281a4;
+    color:#e4dfda;
+}
+#contact-form button[type="submit"]:hover {
+    background:#e4dfda;
+    color:#4281a4;
+}
+
+
+
+
+
+/******************************************************
+
+	$INDEX11 - MEDIA QUERIES : TABLETS
+	
+******************************************************/	
+
+
+
+
+/* TABLETS */
+@media screen and (max-width: 1020px ) {
+     
+  
+		
+	#main .home h1{
+		background: transparent url('images/logo-medium.png') center center no-repeat;
+	}
+	
+
+}
+
+
+
+
+
+/******************************************************
+
+	$INDEX12 - MEDIA QUERIES : SMARTPHONES
+	
+******************************************************/	
+
+
+
+
+
+
+/* SMARTPHONES */
+@media screen and (max-width: 767px ) {
+
+     
+  
+		
+	#main .home h1{
+		background: transparent url('images/logo-small.png') center center no-repeat;
+	}
+	
+	.scroll {
+		background-image: url('images/scroll-small.png');
+	} 
+	.scroll:hover {
+		background-image: url('images/scroll-small.png');
+	}
+
+
+}
+

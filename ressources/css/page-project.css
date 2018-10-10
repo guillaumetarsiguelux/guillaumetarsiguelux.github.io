@@ -1,0 +1,240 @@
+.headerstandard h1 {
+	float: right !important;
+	font-size : 1.6em;
+	line-height: 55px;
+}
+
+
+.headerstandard nav.menustandard a {
+	line-height: 55px;
+	font-size: 1.2em;
+}
+
+.headerstandard nav.menustandard {
+	float: left;
+}
+
+.headerstandard, .menu .menustandard {
+	height: 55px;
+}
+
+
+.right {
+	float: right;
+	background: green;
+	height: 100%;
+	width: 50%;
+	right: 0;
+	top: 0;
+	display : inline-block;
+  	position: relative;
+}
+
+
+.right img {
+ 	max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.main {
+	margin-top: 45px; 
+	background-color :#f4f4f4;
+	color : #393a10;
+	padding: 3% 10% 15% 10%;
+}
+
+#main h1 {
+	color : #4281a4;
+	font-size: 2em;
+	/*margin : 150px 150px 20px  150px;*/
+}
+
+
+.main .h1-subheader {
+	font-size: 1.4em;
+	font-weight: 400;
+	margin : 0 0 3% 0;
+}
+
+
+#container {
+	padding-bottom: 0;
+}
+
+
+
+
+.project_data-link {
+	font-size : 1.1em;
+}
+
+.project-data {
+	line-height: 1.4em;
+	font-size: 1.1em;
+	overflow : hidden; /* so the container div has a height */
+	padding: 0 10% 0 10%;
+	font-family: 'Candara', 'Crimson Text','Lato', Calibri, Arial, sans-serif;
+	font-weight: 50;
+    position: relative;
+    width: 100%;
+
+}
+
+.project-data section {
+	margin: 0 0 30px 0;
+}
+
+.project-data ul {
+	list-style: none;
+	margin : 0;
+	padding-left : 15px;
+}
+
+
+
+
+.project-content {
+	margin : 120px 7% 0 7%  !important;
+}
+
+
+.project-content p {
+	font-size: 1.25em;
+	line-height: 1.35em;
+	text-align: justify;
+	margin: 0;
+	text-indent : 5%;
+}
+
+.project-content span {
+	text-indent : 5%;
+}
+
+.project-main_illustration img{
+display : block;
+max-width: 450px;
+max-height: 220px;
+margin : 3% auto auto auto;
+}
+
+
+.project_media-container {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 22px;
+}
+
+.project-illustration {
+	/*max-width: 300px ;
+	max-height: 300px ;*/
+	margin : 1% 2% 1% 2%;
+}
+
+
+h1 {
+	font-size : 2em;
+}
+
+#main h2 {
+	font-family: 'Candara', 'Crimson Text','Lato', Calibri, Arial, sans-serif;
+    font-weight: 300;
+    border : none;
+    font-size: 1.1em;
+    color : black;
+    margin-bottom: 10px;
+	}
+
+
+.col50 {
+	margin-top : 0;
+}
+
+
+
+
+
+
+
+
+
+/******************************************************
+
+	$INDEX11 - MEDIA QUERIES : TABLETS
+	
+******************************************************/	
+
+
+
+
+/* TABLETS */
+@media screen and (max-width: 1020px ) {
+
+	#main h1, header.headermobile h1 {
+		font-size : 1.8em;
+	}
+
+	#main .h1-subheader {
+		font-size : 1.3em;
+	}
+
+	.project-data {
+		line-height: 1.2em;
+		font-size : 1em;
+	}
+
+    .project-content p {
+    	font-size: 1.1em;
+    }
+
+ }
+
+
+/******************************************************
+
+	$INDEX12 - MEDIA QUERIES : SMARTPHONES
+	
+******************************************************/	
+
+
+
+
+
+
+/* SMARTPHONES */
+@media screen and (max-width: 767px ) {
+
+
+	#main h1, header.headermobile h1 {
+		font-size : 1.5em;
+	}
+
+	#main .h1-subheader {
+		font-size : 1.1em;
+	}
+
+	.project-data {
+		line-height: 1.2em;
+		font-size : 1em;
+	}
+
+    .project-content p {
+    	font-size: 0.9em;
+    }
+
+}
