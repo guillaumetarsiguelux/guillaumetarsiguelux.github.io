@@ -5,6 +5,7 @@ function updateText() {
 	message = 'kitten';
 	language = $( '.language option:selected' ).val();
 
+
 	i18n.locale = language;
 	i18n.load( 'i18n/demo-' + i18n.locale + '.json', i18n.locale ).done(
 		function () {
@@ -18,5 +19,5 @@ $.i18n.debug = true;
 $( document ).ready( function ( $ ) {
 	'use strict';
 	updateText();
-	$( '.kittens, .person, .language' ).on( 'change keyup', updateText );
+	$( '.language' ).on( 'change keyup', updateText );
 } );
