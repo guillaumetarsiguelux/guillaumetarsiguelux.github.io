@@ -1,50 +1,112 @@
 
-#project_title {
 
-}
+/* GENERAL */
 
-#project_tagline {
-	text-align: center;
+body {
+	font-size : 1.2em;
 	padding: 0 10% 0 10%;
 }
 
 
-#project_introduction {
-	margin: 50px 0 0 0 ;
-	font-size: .9em;
-}
-
-#project_course p{
-	font-size: 1.3em;
-	text-align: justify;
+h1 {
+	font-size : 2.2em;
+	color : #4281a4;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 2.2em;
 	text-transform: uppercase;
-
+	letter-spacing: 0.1em;
+	margin: 10% 0 10% 0;
 }
 
-
 h3 {
-	font-size: 1.7em;
+	font-size: 2em;
+	margin: 1.2em 0 1.2em 0;
 }
 
 h4 {
-	font-size: 1.3em;
+	margin: 5% 0 5% 0;
+	font-weight: normal;
+	font-size: 1.5em;
 }
 
+p {
+	text-indent : 3%;
+	font-size: 1.3em;
+	line-height: 1.4em;
+	text-align: justify;
+	margin: 3% 0 3% 0;
+}
 
+li p {
+	text-indent : 1%;
+}
 
+p strong {
+	font-weight: bold;
+	color: dimgrey;
+}
 
 
 .main_section {
-	margin: 100px 0 20px 0 ;
+	margin: 150px 0 50px 0 ;
 }
 
-.project_step_section {
-	margin : 50px 0 0 0;
+
+.subsection {
+	margin : 13% 0 10% 0;
 }
+
+figure {
+	margin: 3em 0 4.5em 0;
+}
+
+
+figcaption {
+	letter-spacing: 0.09em;
+	font-weight: bold;
+	color : grey;
+}
+
+
+/* END OF */
+/* GENERAL */
+
+
+
+/* SPECIFICS */
+
+#title_section {
+	margin-bottom : 15%;
+}
+
+#project_tagline {
+	text-align: center;
+	line-height: 1.6em;
+
+	margin : 5% 10% 0 10% ;
+
+	font-size : 1.4em;
+	letter-spacing: 0.06em;
+	color: dimgrey;
+}
+
+
+#project_introduction {
+	margin: 100px 0 100px 0 ;
+}
+
+#project_introduction-body {
+	font-size : 1.4em;
+	margin : 2% 2% 5% 2%;
+}
+
+
+#project_course p{
+	text-align: justify;
+}
+
 
 
 
@@ -54,8 +116,60 @@ h4 {
 
 #project_introduction-challenges_and_roles-wrapper > section {
 	display : table-cell;
-	width: 45%;
 }
+
+#project_introduction-main_challenges {
+	width : 40%;
+}
+
+#project_introduction-my_roles {
+	width : 50%;
+}
+
+
+
+
+/* CONCLUSION */
+
+
+
+#project_conclusion-challenges_and_learnings .listwrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#project_conclusion-challenges_and_learningsul ul, #project_conclusion-challenges_and_learnings li {
+  list-style: none;
+  text-indent: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#project_conclusion-challenges_and_learnings li {
+  position: relative;
+  padding-left: 2.5em;
+  margin-bottom: 2px;
+}
+  
+#project_conclusion-challenges_and_learnings li::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    font-size: 1.8em;
+  }
+
+#project_conclusion-challenges_and_learnings li.li-love_stuff::before { content: "💖"; }
+#project_conclusion-challenges_and_learnings li.li-good_stuff::before { content: "😄"; }
+#project_conclusion-challenges_and_learnings li.li-interesting_stuff::before { content: "🤔"; }
+#project_conclusion-challenges_and_learnings li.li-challenge_stuff::before { content: "🤕"; }
+
+
+/* END OF */
+/* CONCLUSION */
+
+
 
 /* TESTIMONIAL */
 
@@ -63,8 +177,8 @@ h4 {
 	display: block;
 	height: 0;
 	content: "“";
-	margin-left: -.95em;
-	font: italic 400%/1 Cochin,Georgia,"Times New Roman", serif;
+	margin-left: -.85em;
+	font: italic 800%/1 Cochin,Georgia,"Times New Roman", serif;
 	color: #999;
 }
 
@@ -73,17 +187,17 @@ h4 {
 
 #project_conclusion-testimonials blockquote{
 	box-shadow: 0 0 6px rgba(0,0,0,0.5);
-	margin : 1.5em 0px .75em -1.5em;
+	margin : 5em -3em .75em -1.5em;
 	padding: 0.75em 0.5em 0.75em 1em;
 	border-left: 0.5em solid #DDD
 	background: white;
-
-	font-size: 0.9em;
-	line-height: 1.5;
+	font-size: 1em;
 }
 
 #project_conclusion-testimonials blockquote p {
-	margin : 0.4em 0.5em 0.4em 0.5em;
+	margin : 0.4em 0.5em 0.7em 0.5em;
+	line-height: 1.3em;
+	text-indent: 0;
 }
 
 #project_conclusion-testimonials blockquote footer {
@@ -101,6 +215,8 @@ h4 {
 
 
 
+/* END OF */
+/* SPECIFICS */
 
 
 
@@ -136,7 +252,7 @@ h4 {
 }
 
 
-.right {
+/*.right {
 	float: right;
 	height: 100%;
 	width: 50%;
@@ -144,7 +260,7 @@ h4 {
 	top: 0;
 	display : inline-block;
   	position: relative;
-}
+}*/
 
 
 .right img {
@@ -175,11 +291,6 @@ h4 {
 	padding: 3% 10% 15% 10%;
 }
 
-#main h1 {
-	color : #4281a4;
-	font-size: 2em;
-	/*margin : 150px 150px 20px  150px;*/
-}
 
 
 .main .h1-subheader {
@@ -262,10 +373,6 @@ margin : 3% auto auto auto;
 	margin : 1% 2% 1% 2%;
 }
 
-
-h1 {
-	font-size : 2em;
-}
 
 
 .col50 {
