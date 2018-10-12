@@ -162,8 +162,8 @@ figcaption {
 
 #project_conclusion-challenges_and_learnings li.li-love_stuff::before { content: "💖"; }
 #project_conclusion-challenges_and_learnings li.li-good_stuff::before { content: "😄"; }
-#project_conclusion-challenges_and_learnings li.li-interesting_stuff::before { content: "🤔"; }
-#project_conclusion-challenges_and_learnings li.li-challenge_stuff::before { content: "🤕"; }
+#project_conclusion-challenges_and_learnings li.li-interesting_stuff::before { content: "💡"; }
+#project_conclusion-challenges_and_learnings li.li-challenge_stuff::before { content: "😤"; }
 
 
 /* END OF */
