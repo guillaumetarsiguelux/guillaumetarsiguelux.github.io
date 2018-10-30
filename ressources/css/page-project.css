@@ -173,6 +173,13 @@ figcaption {
   margin-right: auto;
 }
 
+
+.listwrapper p {
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+
 #project_conclusion-challenges_and_learningsul ul, #project_conclusion-challenges_and_learnings li {
   list-style: none;
   text-indent: 0;
@@ -434,24 +441,76 @@ margin : 3% auto auto auto;
 /* TABLETS */
 @media screen and (max-width: 1020px ) {
 
-	#main h1, header.headermobile h1 {
-		font-size : 1.8em;
+	#main h1 {
+		font-size : 2em;
 	}
 
-	#main .h1-subheader {
+	#main h2 {
+		font-size: 1.7em;
+		letter-spacing: 0.1em;
+	}
+
+	#main h3 {
+		font-size: 1.5em;
+		margin: 1em 0 1em 0;
+	}
+
+	h4 {
+		font-size: 1.2em;
+	}
+
+	p {
+		font-size: 1.2em;
+		line-height: 1.3em;
+
+	}
+
+	.listwrapper p {
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+
+	#project_tagline {
 		font-size : 1.3em;
-	}
-
-	.project-data {
 		line-height: 1.2em;
-		font-size : 1em;
+		letter-spacing: 0.06em;
 	}
 
-    .project-content p {
-    	font-size: 1.1em;
-    }
+	#project_metadata {
+		margin-top : -2em ;
+	}
 
- }
+	#project_metadata > section, #project_introduction-challenges_and_roles-wrapper > section {
+		display: inline;
+    	width: 100%;
+	}
+
+	#project_metadata p {
+		font-size: 1.3em;
+	}
+
+	#project_introduction-body {
+		text-indent: 0;
+		font-size : 1.3em;
+		line-height: 1.4em;
+	}
+
+	#project_conclusion-challenges_and_learnings li {
+
+	}
+
+	#project_conclusion-challenges_and_learnings li::before {
+		font-size : 1.5em;
+	}
+
+	#project_conclusion-testimonials blockquote footer {
+		font-size : 1.1em;
+	}
+
+}
+
+
 
 
 /******************************************************
@@ -469,21 +528,5 @@ margin : 3% auto auto auto;
 @media screen and (max-width: 767px ) {
 
 
-	#main h1, header.headermobile h1 {
-		font-size : 1.5em;
-	}
-
-	#main .h1-subheader {
-		font-size : 1.1em;
-	}
-
-	.project-data {
-		line-height: 1.2em;
-		font-size : 1em;
-	}
-
-    .project-content p {
-    	font-size: 0.9em;
-    }
 
 }
