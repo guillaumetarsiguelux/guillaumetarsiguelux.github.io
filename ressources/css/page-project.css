@@ -442,6 +442,7 @@ margin : 3% auto auto auto;
 
 @media screen and (min-width: 768px) and (max-width: 1020px) {
 
+
 	#main h1 {
 		font-size : 2em;
 	}
@@ -463,13 +464,19 @@ margin : 3% auto auto auto;
 	p {
 		font-size: 1.2em;
 		line-height: 1.3em;
-		text-align: left;
+		text-indent: 0;
+		text-align: justify;
 
+	}
+
+	.listwrapper {
+		padding: 0;
 	}
 
 	.listwrapper p {
 		margin-top: 10%;
 		margin-bottom: 10%;
+		text-align: justify;
 	}
 
 
@@ -509,6 +516,7 @@ margin : 3% auto auto auto;
 	#project_conclusion-testimonials blockquote footer {
 		font-size : 1.1em;
 	}
+	
 
 }
 
