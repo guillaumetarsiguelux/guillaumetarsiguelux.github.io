@@ -42,7 +42,11 @@
 	
 ******************************************************/	
 p {
-	display: inline-block;
+	/*display: inline-block;*/
+}
+
+#main {
+	padding: 0 15% 0 15%;
 }
 
 
@@ -141,9 +145,42 @@ p {
 
 /******************************************************
 
-	$INDEX8 - PORTFOLIO
+	$INDEX8 - CASE STUDIES
 	
 ******************************************************/	
+
+#casestudies ul {
+	list-style: none;
+}
+
+#casestudies li {
+	background: white;
+	height: 182px;
+	margin: 2em 0 2em 0;
+}
+
+#casestudies li:hover {
+	background: blue;
+	cursor : pointer;
+
+}
+
+
+#casestudies li .text-part {
+	color: black;
+	padding-left: 3em;
+}
+
+#casestudies li .text-part h3{
+	border-bottom: none;
+	font-size : 2.2em;
+}
+
+#casestudies li .text-part .casestudy_description{
+	color: black;
+	border-bottom: none;
+	font-size : 1.5em;
+}
 
 
 
@@ -164,6 +201,110 @@ p {
 	$INDEX10 - CONTACT
 	
 ******************************************************/	
+
+
+
+
+
+/******************************************************
+
+	$INDEX10 - CONTACT
+	
+******************************************************/	
+#main section.contact .section-content{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.bio-photo {
+	max-height: 500px;
+	max-width: 500px;
+	border-radius : 50%;
+    /*box-shadow: 5px 5px 5px black;*/
+}
+
+.contact_info {
+	margin : 3% 3% 0 3%;
+}
+
+.contact_info-main p {
+	/*font-size: 1.8em;
+	line-height: 1.1em;*/
+	text-align : left;
+}
+
+
+
+.contact_info-social {
+	margin-top : 40px;
+}
+
+.contact_info-social p {
+	font-size: 1.5em;
+}
+
+
+
+
+.social_button {
+	margin : 0 15px 0 15px;
+}
+
+.social_button, .button-facebook, .button-twitter, .button-github, .button-instagram {
+	width: 50px;
+	height: 50px;
+	background-size: contain;
+	display: inline-block;
+	text-align: center;
+	color : darkblue;
+}
+
+.button-facebook {
+	background-image: url("../images/facebook_off.png");
+}
+
+.button-twitter {
+	background-image: url("../images/twitter_off.png");
+}
+
+.button-instagram {
+	background-image: url("../images/instagram_off.png");
+}
+
+.button-github {
+	background-image: url("../images/github_off.png");
+}
+
+.social_button:hover {
+	color : white;
+}
+
+
+.social_button:hover .button-facebook{
+	background-image: url("../images/facebook_on.png");
+}
+
+.social_button:hover .button-twitter {
+	background-image: url("../images/twitter_on.png");
+}
+
+.social_button:hover .button-instagram {
+	background-image: url("../images/instagram_on.png");
+}
+
+.social_button:hover .button-github {
+	background-image: url("../images/github_on.png");
+}
+
+
+
+
+#a-propos p {
+	text-indent: 30px;;
+}
+
+
+
 
 
 
