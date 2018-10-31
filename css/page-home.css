@@ -149,34 +149,34 @@ p {
 	
 ******************************************************/	
 
-#casestudies ul {
+#section_casestudies ul {
 	list-style: none;
 }
 
-#casestudies li {
+#section_casestudies li {
 	background: white;
 	height: 182px;
 	margin: 2em 0 2em 0;
 }
 
-#casestudies li:hover {
+#section_casestudies li:hover {
 	background: blue;
 	cursor : pointer;
 
 }
 
 
-#casestudies li .text-part {
+#section_casestudies li .text-part {
 	color: black;
 	padding-left: 3em;
 }
 
-#casestudies li .text-part h3{
+#section_casestudies li .text-part h3{
 	border-bottom: none;
 	font-size : 2.2em;
 }
 
-#casestudies li .text-part .casestudy_description{
+#section_casestudies li .text-part .casestudy_description{
 	color: black;
 	border-bottom: none;
 	font-size : 1.5em;
