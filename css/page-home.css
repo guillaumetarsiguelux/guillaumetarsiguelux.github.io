@@ -155,30 +155,50 @@ p {
 
 #section_casestudies li {
 	background: white;
-	height: 182px;
+	height: 200px;
 	margin: 2em 0 2em 0;
-}
+	padding: 1em 0 1em 0;
+
+	border-radius : 8px;
+    box-shadow: 5px 5px 10px #888888;
+ }
 
 #section_casestudies li:hover {
-	background: blue;
 	cursor : pointer;
 
+    box-shadow: 0px 0px 10px #888888;
+    border : 0px solid #888888;
+
+}
+
+#section_casestudies .casestudy-image {
+	float : left;
+
+	height: auto;
+	width: 22%;
+	margin-right: 5%;
 }
 
 
-#section_casestudies li .text-part {
+#section_casestudies li .casestudy-text {
 	color: black;
-	padding-left: 3em;
+	white-space: initial;
+	word-wrap: break-word;
+	padding: 0.5em 2em 0.5em 3em;
 }
 
-#section_casestudies li .text-part h3{
+#section_casestudies li .casestudy-title{
 	border-bottom: none;
 	font-size : 2.2em;
 }
 
-#section_casestudies li .text-part .casestudy_description{
+#section_casestudies li .text-part .casestudy-description{
+	width: 100%;
 	color: black;
 	border-bottom: none;
+		word-wrap: break-word;
+		white-space: initial;
+
 	font-size : 1.5em;
 }
 
