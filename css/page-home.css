@@ -42,6 +42,7 @@
 	
 ******************************************************/	
 p {
+	font-size : 1.5em;
 	/*display: inline-block;*/
 }
 
@@ -49,6 +50,18 @@ p {
 	padding: 0 15% 0 15%;
 }
 
+h1 {
+	margin : 0 0 0.1em 0;
+}
+
+
+h2 {
+	margin : 0 0 1.1em 0;
+}
+
+hr {
+	margin-bottom: 7em;
+}
 
 /******************************************************
 
@@ -127,7 +140,7 @@ p {
 
 #main section{
     padding: 110px 4% 20px 4%;
-	margin: 55% 0px;
+	margin: 30% 0px 30% 0px; 
 }
 
 #main section:first-child{
@@ -165,6 +178,8 @@ p {
 
 #section_casestudies li:hover {
 	cursor : pointer;
+
+	background-color : #e3eded;
 
     box-shadow: 0px 0px 10px #888888;
     border : 0px solid #888888;
@@ -234,23 +249,29 @@ p {
 #main section.contact .section-content{
 	padding-left: 0;
 	padding-right: 0;
+	color : black;
+
 }
 
 .bio-photo {
-	max-height: 500px;
-	max-width: 500px;
+	max-height: 400px;
+	max-width: 400px;
 	border-radius : 50%;
+	float : left;
     /*box-shadow: 5px 5px 5px black;*/
 }
 
 .contact_info {
 	margin : 3% 3% 0 3%;
+	padding-top: 1.8em;
 }
 
 .contact_info-main p {
 	/*font-size: 1.8em;
 	line-height: 1.1em;*/
 	text-align : left;
+	color: #373c44;
+	font-size : 1.8em;
 }
 
 
@@ -261,6 +282,7 @@ p {
 
 .contact_info-social p {
 	font-size: 1.5em;
+	color: #373c44;
 }
 
 
