@@ -24,10 +24,10 @@ var cbpAnimatedHeader = (function() {
     function scrollPage() {
         var sy = scrollY();
         if ( sy >= changeHeaderOn ) {
-            /*classie.add( header, 'headerstandard-shrink' );*/
+            classie.add( header, 'headerstandard-shrink' );
         }
         else {
-           /* classie.remove( header, 'headerstandard-shrink' );*/
+            classie.remove( header, 'headerstandard-shrink' );
         }
         didScroll = false;
     }
@@ -43,7 +43,21 @@ var cbpAnimatedHeader = (function() {
 
 
 
-$(function() {
+
+
+
+
+
+ $(document).ready(function() {
+	  $("image-popup").magnificPopup({
+    	  type: 'image',
+    	  closeOnContentClick: true,
+      	closeBtnInside: false,
+      	gallery: { enabled:true }
+  	});
+};
+  
+
 
 
 
@@ -52,6 +66,7 @@ $(function() {
 *	gestion de la mobilité
 *
 ********************************************************/
+
 
 
 	function toggleMobileMenu(){
@@ -96,7 +111,7 @@ $(function() {
 		$('.target-'+currentSection).addClass('current');
 	}
 	
-	$("#main section").waypoint( function( direction ) {
+	/*$("#main section").waypoint( function( direction ) {
 		if( direction === 'down' ) {
 			change( $( this ) ); 
 		}
@@ -111,7 +126,7 @@ $(function() {
 		$('html, body').animate({
 			scrollTop: $("#"+currentSection).offset().top
 		}, 500);
-	} );
+	} );*/
 	
 	
 	

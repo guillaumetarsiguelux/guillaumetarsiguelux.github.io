@@ -1,0 +1,664 @@
+
+
+/* GENERAL */
+
+
+.mfp-iframe {max-width: 50%;}
+
+body {
+	font-size : 1.2em;
+	padding: 0 10% 0 10%;
+}
+
+
+h1 {
+	font-size : 2.2em;
+	color : #4281a4;
+}
+
+h2 {
+	font-size: 2.2em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin: 10% 0 10% 0;
+	font-weight: 300;
+	text-align: left;
+}
+
+h3 {
+	font-size: 2em;
+	margin: 1.2em 0 1.2em 0;
+}
+
+h4 {
+	margin: 5% 0 5% 0;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+p {
+	text-indent : 3%;
+	font-size: 1.3em;
+	line-height: 1.4em;
+	text-align: justify;
+	margin: 3% 0 3% 0;
+}
+
+li p {
+	text-indent : 1%;
+}
+
+p strong {
+	font-weight: bold;
+	color: dimgrey;
+}
+
+
+.main_section {
+	margin: 150px 0 50px 0 ;
+}
+
+
+.subsection {
+	margin : 13% 0 10% 0;
+}
+
+figure {
+	margin: 3em 0 4.5em 0;
+	height: 100%;
+	text-align: center;
+}
+
+figure > a > img {
+	max-width : 80%;
+	max-height: 460px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+
+figcaption {
+	margin: 0.8em 0 0 0;
+	
+	letter-spacing: 0.09em;
+	font-weight: bold;
+	color : grey;
+	text-align: center;
+}
+
+
+/* END OF */
+/* GENERAL */
+
+
+
+/* SPECIFICS */
+
+#title_section {
+	margin-bottom : 15%;
+}
+
+#project_tagline {
+	text-align: center;
+	line-height: 1.6em;
+
+	margin : 5% 10% 0 10% ;
+
+	font-size : 1.4em;
+	letter-spacing: 0.06em;
+	color: dimgrey;
+}
+
+#project_logo {
+	margin: 1em 0 3em 0;
+}
+
+#project_logo  img {
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+	max-width: 20%;
+	max-height: 60px;
+}
+
+#project_introduction {
+	margin: 100px 0 100px 0 ;
+}
+
+#project_introduction-body {
+	font-size : 1.4em;
+	margin : 2% 2% 5% 2%;
+}
+
+
+#project_course p{
+	text-align: justify;
+}
+
+
+#project_metadata {
+	margin: -5em 2em 7em 0;
+	font-size : 0.8em;
+	display : table;
+}
+
+#project_metadata > section {
+	display : table-cell;
+	width: 45%;
+}
+
+#project_metadata p {
+	text-indent: 0;
+}
+
+
+
+#project_introduction-challenges_and_roles-wrapper {
+	display : table;
+}
+
+#project_introduction-challenges_and_roles-wrapper > section {
+	display : table-cell;
+}
+
+#project_introduction-main_challenges {
+	width : 40%;
+}
+
+#project_introduction-my_roles {
+	width : 50%;
+}
+
+
+
+
+/* CONCLUSION */
+
+
+
+#project_conclusion-challenges_and_learnings .listwrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.listwrapper p {
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+
+#project_conclusion-challenges_and_learningsul ul, #project_conclusion-challenges_and_learnings li {
+  list-style: none;
+  text-indent: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#project_conclusion-challenges_and_learnings li {
+  position: relative;
+  padding-left: 2.5em;
+  margin-bottom: 2px;
+}
+  
+#project_conclusion-challenges_and_learnings li::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    font-size: 1.8em;
+  }
+
+#project_conclusion-challenges_and_learnings li.li-love_stuff::before { content: "💖"; }
+#project_conclusion-challenges_and_learnings li.li-good_stuff::before { content: "😄"; }
+#project_conclusion-challenges_and_learnings li.li-interesting_stuff::before { content: "💡"; }
+#project_conclusion-challenges_and_learnings li.li-challenge_stuff::before { content: "😤"; }
+
+
+/* END OF */
+/* CONCLUSION */
+
+
+
+/* TESTIMONIAL */
+
+#project_conclusion-testimonials blockquote::before{
+	display: block;
+	height: 0;
+	content: "“";
+	margin-left: -.85em;
+	font: italic 800%/1 Cochin,Georgia,"Times New Roman", serif;
+	color: #999;
+}
+
+
+
+
+#project_conclusion-testimonials blockquote{
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+	margin : 5em -3em .75em -1.5em;
+	padding: 0.75em 0.5em 0.75em 1em;
+	border-left: 0.5em solid #DDD
+	background: white;
+	font-size: 1em;
+}
+
+#project_conclusion-testimonials blockquote p {
+	margin : 0.4em 0.5em 0.7em 0.5em;
+	line-height: 1.3em;
+	text-indent: 0;
+}
+
+#project_conclusion-testimonials blockquote footer {
+	font-size: 1.3em;
+	font-style: italic;
+	margin-left: 2em;
+}
+
+
+
+/* END OF */
+/* TESTIMONIALS */
+
+
+
+
+
+/* END OF */
+/* SPECIFICS */
+
+
+
+
+
+
+.headerstandard h1 {
+	float: right !important;
+	font-size : 1.6em;
+	line-height: 55px;
+}
+
+
+.headerstandard nav.menustandard a {
+	line-height: 55px;
+	font-size: 1.2em;
+}
+
+.headerstandard nav.menustandard {
+	float: left;
+}
+
+.headerstandard, .menu .menustandard {
+	height: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+/*.right {
+	float: right;
+	height: 100%;
+	width: 50%;
+	right: 0;
+	top: 0;
+	display : inline-block;
+  	position: relative;
+}*/
+
+
+.right img {
+ 	max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.main {
+	margin-top: 45px; 
+	background-color :#f4f4f4;
+	color : #393a10;
+	padding: 3% 10% 15% 10%;
+}
+
+
+
+.main .h1-subheader {
+	font-size: 1.4em;
+	font-weight: 400;
+	margin : 0 0 3% 0;
+}
+
+
+#container {
+	padding-bottom: 0;
+}
+
+
+
+
+.project_data-link {
+	font-size : 1.1em;
+}
+
+.project-data {
+	line-height: 1.4em;
+	font-size: 1.1em;
+	overflow : hidden; /* so the container div has a height */
+	padding: 0 10% 0 10%;
+	font-family: 'Candara', 'Crimson Text','Lato', Calibri, Arial, sans-serif;
+	font-weight: 50;
+    position: relative;
+    width: 100%;
+
+}
+
+.project-data section {
+	margin: 0 0 30px 0;
+}
+
+.project-data ul {
+	list-style: none;
+	margin : 0;
+	padding-left : 15px;
+}
+
+
+
+
+.project-content {
+	margin : 120px 7% 0 7%  !important;
+}
+
+
+.project-content p {
+	font-size: 1.25em;
+	line-height: 1.35em;
+	text-align: justify;
+	margin: 0;
+	text-indent : 5%;
+}
+
+.project-content span {
+	text-indent : 5%;
+}
+
+.project-main_illustration img{
+display : block;
+max-width: 450px;
+max-height: 220px;
+margin : 3% auto auto auto;
+}
+
+
+.project_media-container {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 22px;
+}
+
+.project-illustration {
+	/*max-width: 300px ;
+	max-height: 300px ;*/
+	margin : 1% 2% 1% 2%;
+}
+
+
+
+.col50 {
+	margin-top : 0;
+}
+
+
+
+
+
+
+
+
+
+/******************************************************
+
+	$INDEX11 - MEDIA QUERIES : TABLETS
+	
+******************************************************/	
+
+
+
+
+/* TABLETS */
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+
+
+	#main h1 {
+		font-size : 2em;
+	}
+
+	#main h2 {
+		font-size: 1.7em;
+		letter-spacing: 0.1em;
+	}
+
+	#main h3 {
+		font-size: 1.5em;
+		margin: 1em 0 1em 0;
+	}
+
+	h4 {
+		font-size: 1.2em;
+	}
+
+	p {
+		font-size: 1.2em;
+		line-height: 1.3em;
+		text-indent: 0;
+		text-align: justify;
+
+	}
+
+	.listwrapper {
+		padding: 0;
+	}
+
+	.listwrapper p {
+		margin-top: 10%;
+		margin-bottom: 10%;
+		text-align: justify;
+	}
+
+
+	#project_tagline {
+		font-size : 1.3em;
+		line-height: 1.2em;
+		letter-spacing: 0.06em;
+	}
+
+	#project_metadata {
+		margin-top : -2em ;
+	}
+
+	#project_metadata > section, #project_introduction-challenges_and_roles-wrapper > section {
+		display: inline;
+    	width: 100%;
+	}
+
+	#project_metadata p {
+		font-size: 1.3em;
+	}
+
+	#project_introduction-body {
+		text-indent: 0;
+		font-size : 1.3em;
+		line-height: 1.4em;
+	}
+
+	#project_conclusion-challenges_and_learnings li {
+
+	}
+
+	#project_conclusion-challenges_and_learnings li::before {
+		font-size : 1.5em;
+	}
+
+	#project_conclusion-testimonials blockquote footer {
+		font-size : 1.1em;
+	}
+	
+
+}
+
+
+
+
+/******************************************************
+
+	$INDEX12 - MEDIA QUERIES : SMARTPHONES
+	
+******************************************************/	
+
+
+
+
+
+
+/* SMARTPHONES */
+@media screen and (max-width: 767px ) {
+
+	/*.main {
+		margin-top: 10px;
+		padding-top: 10px; 
+	}*/
+
+	.main {
+		padding: 30px 0 100px 0;
+	}
+
+	.main_section {
+		margin : 70px 0 10px 0;
+	}
+
+	#main h1 {
+		font-size : 2em;
+	}
+
+	#main h2 {
+		font-size: 1.7em;
+		letter-spacing: 0.1em;
+		text-align: center;
+		margin: 10% 0 15% 0;
+	}
+
+	#main h3 {
+		font-size: 1.5em;
+		margin: 2em 0 1.5em 0;
+	}
+
+	h4 {
+		font-size: 1.2em;
+		margin : 10% 0 10% 0 ;
+	}
+
+	p {
+		font-size: 1em;
+		line-height: 1.2em;
+		text-indent: 0;
+		margin : 10% 0 10% 0;
+	}
+
+	li p {
+		margin: 1.5em 0 1.5em 0;
+	}
+
+	figcaption {
+		font-size : 0.8em;
+	}
+
+	figure {
+		margin: 2em 0 3em 0;
+	}
+
+	.listwrapper {
+		padding: 0 ;
+	}
+
+	.listwrapper p {
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+	#project_title {
+		margin-bottom: 30px;
+	}
+
+
+	#project_tagline {
+		font-size : 1.1em;
+		line-height: 1em;
+		letter-spacing: 0.07em;
+		text-align: center;
+		margin: 0;
+	}
+
+	#project_metadata {
+		margin-top : 2em ;
+		margin : 2em 0 3em 0;
+	}
+
+	#project_metadata > section, #project_introduction-challenges_and_roles-wrapper > section {
+		display: inline;
+    	width: 100%;
+	}
+
+	#project_metadata p {
+		font-size: 1.1em;
+		margin: 5% 0 5% 0;
+	}
+
+	#project_introduction-body {
+		text-indent: 0;
+		font-size : 1.1em;
+		line-height: 1.3em;
+		text-align: left;
+	}
+
+	#project_conclusion-challenges_and_learnings li {
+		margin-left : -1em;
+		padding-left: 2em;
+
+	}
+
+	#project_conclusion-challenges_and_learnings li::before {
+		font-size : 1.2em;
+	}
+
+	#project_conclusion-testimonials {
+		padding : 0 3em 0 3em;
+	}
+
+	#project_conclusion-testimonials blockquote footer {
+		font-size : 0.9em;
+	}
+
+	#project_conclusion-testimonials blockquote::before {
+		margin-left : -0.45em;
+	}
+
+}
