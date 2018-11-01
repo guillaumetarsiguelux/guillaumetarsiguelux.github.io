@@ -415,14 +415,14 @@ html, body,
 
 #main .home h1{
 	font-size: 5em;
-	font-family: 'Lobster Two', 'Lato', Calibri, Arial, sans-serif;
+	font-family: 'Lato', 'Lato', Calibri, Arial, sans-serif;
 	display: block;
 	width: 100%;
 	padding-top: 245px;
 	line-height: 0.8em;
 	height: 450px;
 	margin: 20px auto;
-	background: transparent url('../images/logo.png') center center no-repeat;
+	/*background: transparent url('../images/logo.png') center center no-repeat;*/
 }
 
 #main .home h2{
