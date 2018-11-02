@@ -50,7 +50,13 @@ p, li {
 	padding: 0 15% 0 15%;
 }
 
+ #main section:first-child {
+ 	padding-top: 10%;
+}
+
 h1 {
+	text-align: left;
+	text-indent : 5%;
 	margin : 0 0 0.1em 0;
 }
 
@@ -62,6 +68,26 @@ h2 {
 hr {
 	margin-bottom: 7em;
 }
+
+
+
+
+/******************************************************
+
+	$INDEX2 - HOME
+	
+******************************************************/	
+#hello_h1 {
+	font-size : 3.5em !important;
+}
+
+#bonjour {
+	font-size: 1.6em;
+	line-height: 1.8em;
+}
+
+
+
 
 /******************************************************
 
@@ -234,6 +260,7 @@ hr {
 #section_about p.about_punchline {
 	font-size : 1.8em;
 	padding: 0 15% 0 15%;
+	text-indent: 0;
 	text-align: center;	
 }
 

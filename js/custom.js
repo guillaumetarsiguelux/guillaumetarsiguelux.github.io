@@ -86,7 +86,7 @@ $(function() {
 		}, 500);
 	});
 	
-	var currentSection = "section1";
+	var currentSection = "section_home";
 				
 	function change($section){
 		console.log($section);
@@ -141,7 +141,8 @@ $(function() {
 
 var typed = new Typed('#main_punchline.french', {
   /*strings: ["Construisons ensemble votre future application mobile", "Construisons ensemble votre future plateforme e-commerce", "Construisons ensemble votre future application métier", "Construisons ensemble un projet qui plaira à vos utilisateurs" ],*/
-  strings: ["Pour une expérience utilisateur mémorable",  "Pour une expérience utilisateur intuitive",  "Pour une expérience utilisateur fun", "Pour une expérience utilisateur efficace"],
+  /*strings: ["Pour une expérience utilisateur intuitive",  "Pour une expérience utilisateur fun",  "Pour une expérience utilisateur mémorable", "Pour une expérience utilisateur efficace"],*/
+   strings: ["<span id=\"bonjour\">Bonjour,</span></br> je suis Guillaume Tarsiguel, UX designer"],
   typeSpeed: 30
 });
 

@@ -161,7 +161,7 @@ a.clickable-link {
 }
 
 a.clickable-link.link-showy {
-	color : blue;
+	color : #0a81d1;;
 }
 
 a.clickable-link.link-discrete{
@@ -169,7 +169,7 @@ a.clickable-link.link-discrete{
 }
 
 a.clickable-link:hover {
-	color : blue;
+	color : #0a81d1;
 	text-decoration-line: underline;
 }
 
@@ -246,7 +246,7 @@ nav a.current, nav a:hover{}
 
 
 .headerstandard {
-    height: 230px;
+    height: 150px;
 }
 
 
@@ -261,13 +261,14 @@ nav a.current, nav a:hover{}
 		 /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
 		.headerstandard h1,
 		.headerstandard nav.menustandard a {
-			line-height: 230px;
+			line-height: 150px;
 		}
 
 		 .headerstandard h1 {
 			letter-spacing: 4px;
-			font-size: 4em;
+			font-size: 2.5em;
 			float: left;
+			text-indent : 0;
 		}
 
 		 .headerstandard nav.menustandard{
@@ -278,7 +279,7 @@ nav a.current, nav a:hover{}
 
 		.headerstandard nav.menustandard a {
 			margin: 0 0 0 8px;
-			font-size: 1.3em;
+			font-size: 1.4em;
 			font-weight: 300;
 			padding: 8px 10px;
 			
@@ -314,7 +315,7 @@ nav a.current, nav a:hover{}
 }
  
 .headerstandard.headerstandard-shrink h1 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 
@@ -425,12 +426,12 @@ html, body,
 	text-align: center;
 }
 
+
 #main .home h1{
 	font-size: 5em;
 	font-family: 'Lato', 'Lato', Calibri, Arial, sans-serif;
 	display: block;
 	width: 100%;
-	padding-top: 245px;
 	line-height: 0.8em;
 	height: 450px;
 	margin: 20px auto;
