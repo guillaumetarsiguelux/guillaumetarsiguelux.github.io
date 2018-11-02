@@ -141,7 +141,7 @@ $(function() {
 
 var typed = new Typed('#main_punchline.french', {
   /*strings: ["Construisons ensemble votre future application mobile", "Construisons ensemble votre future plateforme e-commerce", "Construisons ensemble votre future application métier", "Construisons ensemble un projet qui plaira à vos utilisateurs" ],*/
-  strings: ["Pour une expérience utilisateur mémorable",  "Pour une expérience utilisateur intuitive",  "Pour une expérience utilisateur fun", "Pour une  expérience utilisateur efficace"],
+  strings: ["Pour une expérience utilisateur mémorable",  "Pour une expérience utilisateur intuitive",  "Pour une expérience utilisateur fun", "Pour une expérience utilisateur efficace"],
   typeSpeed: 30
 });
 
