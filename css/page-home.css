@@ -124,7 +124,11 @@ hr {
 
 
 
-
+.mini-icon {
+	width: 50px;
+	height: 50px;
+	margin: 0 1em 0 0;
+}
 		
 		
 
@@ -270,7 +274,7 @@ hr {
 .bio-photo {
 	max-height: 500px;
 	max-width: 500px;
-	margin : 1% 0 4% -5%; 
+	margin : 0 0 2% -5%; 
 	border-radius : 50%;
 	float : left;
     /*box-shadow: 5px 5px 5px black;*/
@@ -376,28 +380,21 @@ hr {
 
 
 .social_button {
-	margin : 0 15px 0 15px;
+	margin : 0 5% 0 5%;
 }
 
 .social_button, .button-facebook, .button-twitter, .button-github, .button-instagram {
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	background-size: contain;
 	display: inline-block;
 	text-align: center;
 	color : darkblue;
 }
 
-.button-facebook {
-	background-image: url("../images/facebook_off.png");
-}
 
 .button-twitter {
 	background-image: url("../images/twitter_off.png");
-}
-
-.button-instagram {
-	background-image: url("../images/instagram_off.png");
 }
 
 .button-github {
@@ -405,9 +402,13 @@ hr {
 }
 
 .social_button:hover {
-	color : white;
+	color : #0a81d1;
+	font-weight: bold;
 }
 
+.social_button-name {
+	font-size: 1.3em;
+}
 
 .social_button:hover .button-facebook{
 	background-image: url("../images/facebook_on.png");
@@ -424,20 +425,6 @@ hr {
 .social_button:hover .button-github {
 	background-image: url("../images/github_on.png");
 }
-
-
-
-
-#a-propos p {
-	text-indent: 30px;;
-}
-
-
-
-
-
-
-
 
 
 
