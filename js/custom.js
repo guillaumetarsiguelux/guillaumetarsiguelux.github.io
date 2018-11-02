@@ -85,6 +85,12 @@ $(function() {
 			scrollTop: $( $(this).attr('href') ).offset().top
 		}, 500);
 	});
+
+	$('h1 a').click(function(){
+		$('html, body').animate({
+			scrollTop: $( $(this).attr('href') ).offset().top
+		}, 500);
+	});
 	
 	var currentSection = "section_home";
 				

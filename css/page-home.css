@@ -42,7 +42,6 @@
 	
 ******************************************************/	
 p, li {
-	font-size : 1.5em;
 	/*display: inline-block;*/
 }
 
@@ -56,13 +55,16 @@ p, li {
 
 h1 {
 	text-align: left;
-	text-indent : 5%;
 	margin : 0 0 0.1em 0;
 }
 
 
 h2 {
 	margin : 0 0 1.1em 0;
+}
+
+h3 {
+	font-size : 1.8em;
 }
 
 hr {
@@ -188,21 +190,22 @@ hr {
 	
 ******************************************************/	
 
-#section_casestudies ul {
+#casestudies ul {
 	list-style: none;
+	margin : 0;
 }
 
-#section_casestudies li {
+#casestudies li {
 	background: white;
 	height: 200px;
 	margin: 2em 0 2em 0;
-	padding: 1em 0 1em 0;
+	padding: 1em 3em 1em 0;
 
 	border-radius : 8px;
     box-shadow: 5px 5px 10px #888888;
  }
 
-#section_casestudies li:hover {
+#casestudies li:hover {
 	cursor : pointer;
 
 	background-color : #e3eded;
@@ -212,7 +215,7 @@ hr {
 
 }
 
-#section_casestudies .casestudy-image {
+#casestudies .casestudy-image {
 	float : left;
 
 	height: auto;
@@ -221,27 +224,28 @@ hr {
 }
 
 
-#section_casestudies li .casestudy-text {
+#casestudies li .casestudy-text {
 	color: black;
 	white-space: initial;
 	word-wrap: break-word;
 	padding: 0.5em 2em 0.5em 3em;
 }
 
-#section_casestudies li .casestudy-title{
+#casestudies li .casestudy-title{
 	border-bottom: none;
-	font-size : 2.2em;
+	font-size : 2.6em;
 }
 
-#section_casestudies li .text-part .casestudy-description{
+#casestudies li  p.casestudy-description{
+	font-size : 1.5em;
 	width: 100%;
 	color: black;
 	border-bottom: none;
-		word-wrap: break-word;
-		white-space: initial;
-
-	font-size : 1.5em;
+	word-wrap: break-word;
+	white-space: initial;
 }
+
+
 
 
 
@@ -252,41 +256,62 @@ hr {
 	
 ******************************************************/	
 
-#section_about p {
+#about p {
 	text-align: justify;
 	text-indent : 4%;
 }
 
-#section_about p.about_punchline {
-	font-size : 1.8em;
-	padding: 0 15% 0 15%;
-	text-indent: 0;
-	text-align: center;	
-}
 
-#section_about p.about_main {
+#about p.about_main {
+	text-indent: 0;
 	margin : 3em 0 5em 0;
 }
 
+.bio-photo {
+	max-height: 500px;
+	max-width: 500px;
+	margin : 1% 0 4% -5%; 
+	border-radius : 50%;
+	float : left;
+    /*box-shadow: 5px 5px 5px black;*/
+}
 
-
-#section_about .resume {
+#about .resume {
 	font-size : 1em;
 	font-weight: bold;
 }
 
-#section_about {
+#about {
 	list-style: none;
 }
 
-#section_about li {
+#about li {
+	font-size : 1.5em;
 	margin : 0.8em 0 0.8em 0; 
 }
 
+#about .right li {
+	text-align: justify;
+}
 
+#about .col50 h2 {
+	text-align: left;
+}
 
+#about .punchline {
+	font-weight: bold;
+	color : midnightblue;
+	margin : 0 0 1em 0;
+	letter-spacing: 0.5px;
+	line-height : 1.2em;
+	text-align: left;
+}
 
-#section_about blockquote{
+#about .minibio {
+	text-indent : 5%;
+}
+
+#about blockquote{
 	box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
 	margin : 400px 15% .75em 15%;
 	border-left: 0.5em solid #DDD
@@ -294,14 +319,14 @@ hr {
 	font-size: 1em;
 }
 
-#section_about blockquote p {
+#about blockquote p {
 	margin : 0.6em 1em 0.7em 1em;
 	line-height: 1.3em;
 	text-indent: 0;
 	/*font-style: italic;*/
 }
 
-#section_about blockquote footer {
+#about blockquote footer {
 	float :right;
 	font-size: 1.3em;
 	font-style: italic;
@@ -321,13 +346,7 @@ hr {
 
 }
 
-.bio-photo {
-	max-height: 450px;
-	max-width: 450px;
-	border-radius : 50%;
-	float : left;
-    /*box-shadow: 5px 5px 5px black;*/
-}
+
 
 .contact_info {
 	margin : 3% 3% 0 3%;
