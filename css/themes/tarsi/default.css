@@ -74,7 +74,7 @@ header{
 }
 
 a{
-	color: #F0F0F0;
+	color: black;
 }
 
 a:hover {
@@ -98,6 +98,10 @@ hr{
 	border-color: #151756;
 }
 
+
+blockquote {
+	font-family: Calibri, Arial, sans-serif;
+}
 
 
 
@@ -132,8 +136,8 @@ nav a.current, nav a:hover{
 
  
 .headerstandard.headerstandard-shrink h1 {
-	background: transparent url('images/icone.png') center left no-repeat;
-	text-indent: 60px;
+	/*background: transparent url('images/icone.png') center left no-repeat;*/
+	/*text-indent: 60px;*/
 }
 
 
@@ -171,13 +175,14 @@ header.headermobile button {
 
 
 #main .home h1{
-	background: transparent url('images/logo.png') center center no-repeat;
+	</*background: transparent url('images/logo.png') center center no-repeat;*/
 }
 
 
 .quote{
-	background: rgba(30, 30, 30, 0.6) url('images/quote.png') 15px 15px no-repeat;
-	padding: 20px 20px 20px 80px;
+	background: rgba(30, 30, 30, 0.1) url('images/quote.png') 15px 15px no-repeat;
+	/*background: rgba(30, 30, 30, 0.6) url('images/quote.png') 15px 15px no-repeat;*/
+	padding: 15px 20px 50px 80px;
 }	
 
 .scroll {

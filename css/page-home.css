@@ -41,7 +41,7 @@
 	$INDEX1 - GENERAL
 	
 ******************************************************/	
-p {
+p, li {
 	font-size : 1.5em;
 	/*display: inline-block;*/
 }
@@ -222,22 +222,62 @@ hr {
 
 /******************************************************
 
-	$INDEX9 - THE TEAM
+	$INDEX9 - ABOUT
 	
 ******************************************************/	
 
+#section_about p {
+	text-align: justify;
+	text-indent : 4%;
+}
+
+#section_about p.about_punchline {
+	font-size : 1.8em;
+	text-align: center;	
+}
+
+#section_about p.about_main {
+	margin : 3em 0 5em 0;
+}
+
+
+
+#section_about .resume {
+	font-size : 1em;
+	font-weight: bold;
+}
+
+#section_about {
+	list-style: none;
+}
+
+#section_about li {
+	margin : 0.8em 0 0.8em 0; 
+}
 
 
 
 
+#section_about blockquote{
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+	margin : 400px 15% .75em 15%;
+	border-left: 0.5em solid #DDD
+	background: white;
+	font-size: 1em;
+}
 
-/******************************************************
+#section_about blockquote p {
+	margin : 0.6em 1em 0.7em 1em;
+	line-height: 1.3em;
+	text-indent: 0;
+	/*font-style: italic;*/
+}
 
-	$INDEX10 - CONTACT
-	
-******************************************************/	
-
-
+#section_about blockquote footer {
+	float :right;
+	font-size: 1.3em;
+	font-style: italic;
+}
 
 
 
@@ -254,8 +294,8 @@ hr {
 }
 
 .bio-photo {
-	max-height: 400px;
-	max-width: 400px;
+	max-height: 450px;
+	max-width: 450px;
 	border-radius : 50%;
 	float : left;
     /*box-shadow: 5px 5px 5px black;*/

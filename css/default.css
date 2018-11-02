@@ -157,13 +157,25 @@ p{
 
 
 a.clickable-link {
-	color : blue;
 	font-size: 1em;
 }
 
+a.clickable-link.link-showy {
+	color : blue;
+}
+
+a.clickable-link.link-discrete{
+	text-decoration: underline;
+}
+
 a.clickable-link:hover {
+	color : blue;
 	text-decoration-line: underline;
 }
+
+
+
+
 
 
 /******************************************************
@@ -461,7 +473,7 @@ html, body,
 
 .col50{
 	display: inline-block;
-	width: 48%;
+	width: 45%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 }
@@ -922,7 +934,7 @@ html, body,
 		line-height: 0.8em;
 		height: 350px;
 		margin: 20px auto;
-		background: transparent url('../images/logo-medium.png') center center no-repeat;
+		/*background: transparent url('../images/logo-medium.png') center center no-repeat;*/
 	}
 	
 	#main .home h2{
@@ -1021,7 +1033,7 @@ html, body,
 		line-height: 0.8em;
 		height: 250px;
 		margin: 20px auto;
-		background: transparent url('../images/logo-small.png') center center no-repeat;
+		/*background: transparent url('../images/logo-small.png') center center no-repeat;*/
 	}
 	
 	#main .home h2{
