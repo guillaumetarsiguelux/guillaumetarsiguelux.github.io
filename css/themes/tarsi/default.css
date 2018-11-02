@@ -116,11 +116,13 @@ blockquote {
 
 nav a{
 	color: white;
+	font-weight: 300;
 }
 
 nav a.current, nav a:hover{
-    background: #4281a4;
-    color: white !important;
+    background: white;
+    color: black;
+    font-weight: bold;
 }
 
 

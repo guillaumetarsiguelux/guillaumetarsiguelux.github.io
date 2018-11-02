@@ -89,8 +89,10 @@ $(function() {
 	var currentSection = "section1";
 				
 	function change($section){
+		console.log($section);
 		$('nav.menu a').removeClass('current');
 		currentSection = $section.attr('id');
+		console.log(currentSection);
 		$('body').removeClass();
 		$('body').addClass( $section.attr('id') + '-visible' );
 		$('.target-'+currentSection).addClass('current');
@@ -129,9 +131,26 @@ $(function() {
 	
 	
 
+
+
 /********************************************************
 *
-*	Portfolio
+*	Home — typed.js
+*
+********************************************************/
+
+var typed = new Typed('#main_punchline.french', {
+  /*strings: ["Construisons ensemble votre future application mobile", "Construisons ensemble votre future plateforme e-commerce", "Construisons ensemble votre future application métier", "Construisons ensemble un projet qui plaira à vos utilisateurs" ],*/
+  strings: ["Pour une expérience utilisateur mémorable",  "Pour une expérience utilisateur intuitive",  "Pour une expérience utilisateur fun", "Pour une  expérience utilisateur efficace"],
+  typeSpeed: 30
+});
+
+
+
+
+/********************************************************
+*
+*	Case studies
 *
 ********************************************************/
 
@@ -145,15 +164,6 @@ $(function() {
 	$elements.isotope({ filter: '.tous' });
 
 	// filter items when filter link is clicked
-	$('.portfolio nav a').click(function(){
-		var selector = $(this).attr('data-filter');
-		$elements.isotope({ filter: selector });
-		
-		$('.portfolio nav a').removeClass('current');
-		$(this).addClass('current');
-		
-		return false;
-	});
 
 	
 
@@ -163,45 +173,13 @@ $("#section_casestudies li").click(function(){
 });
 	
 
-/********************************************************
-*
-*	Contact form
-*
-********************************************************/
 
 
-	// Create input element for testing
-	var inputs = document.createElement('input');
-	
-	// Create the supports object
-	var supports = {};
-	
-	supports.autofocus   = 'autofocus' in inputs;
-	supports.required    = 'required' in inputs;
-	supports.placeholder = 'placeholder' in inputs;
 
-	// Fallback for autofocus attribute
-	if(!supports.autofocus) {
-		
-	}
-	
-	// Fallback for required attribute
-	if(!supports.required) {
-		
-	}
 
-	// Fallback for placeholder attribute
-	if(!supports.placeholder) {
-		
-	}
-	
-	// Change text inside send button on submit
-	var send = document.getElementById('contact-submit');
-	if(send) {
-		send.onclick = function () {
-			this.innerHTML = '...Sending';
-		}
-	}
+
+
+
 
 
 	
