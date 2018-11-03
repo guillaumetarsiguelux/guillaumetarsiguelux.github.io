@@ -54,6 +54,7 @@ p, li {
 }
 
 h1 {
+	font-size : 4.2em;
 	text-align: left;
 	margin : 0 0 0.1em 0;
 }
@@ -72,7 +73,13 @@ hr {
 }
 
 
+#fill_up_section {
+	padding: 20px;
+}
 
+#container {
+	padding-bottom: 33%;
+}
 
 /******************************************************
 
@@ -172,7 +179,7 @@ hr {
 
 #main section{
     padding: 110px 4% 20px 4%;
-	margin: 30% 0px 30% 0px; 
+	margin: 30% 0px 5% 0px; 
 }
 
 #main section:first-child{
@@ -181,7 +188,7 @@ hr {
 }
 
 #main section:last-child{
-	margin-bottom: 100%;
+	margin-bottom: 5%;
 }
 
 
@@ -267,6 +274,7 @@ hr {
 
 
 #about p.about_main {
+	font-size : 1.4em;
 	text-indent: 0;
 	margin : 3em 0 5em 0;
 }
