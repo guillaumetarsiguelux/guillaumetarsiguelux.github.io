@@ -299,6 +299,7 @@ header.headermobile h1 {
 #about .resume {
 	font-size : 1em;
 	font-weight: bold;
+	color : midnightblue !important;
 }
 
 #about {
@@ -320,10 +321,10 @@ header.headermobile h1 {
 
 #about .punchline {
 	font-weight: bold;
-	color : midnightblue;
+	color :#356884;
 	margin : 0 0 1em 0;
 	letter-spacing: 0.5px;
-	line-height : 1.2em;
+	line-height : 1.25em;
 	text-align: left;
 }
 
@@ -455,9 +456,111 @@ header.headermobile h1 {
 
 
 /* TABLETS */
-@media screen and (max-width: 1020px ) {
+@media screen and (min-width: 768px) and (max-width: 1020px ) {
      
- 
+
+    .headerstandard h1 {
+    	line-height: 10px;
+    } 
+
+    .headerstandard .headerstandard-inner {
+    	padding-top: 10px;
+    }
+
+ 	#main {
+		padding : 0 15% 0 15%;
+	}
+
+	#main h1 {
+		font-size : 2.3em;
+	}
+
+	#main section:first-child {
+		padding-top: 200px;
+	}
+
+	#main section {
+		padding-top: 200px;
+	}
+
+	#container {
+		padding-bottom: 60%;
+	}
+
+	#bonjour {
+		font-size: 2.5em;
+		text-align: left;
+	}
+
+	#main h2 {
+		margin-top: 1.5em; 
+		font-weight: bold;
+		font-size: 1.3em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	#fill_up_section {
+		display: none!important;
+	}
+
+
+	#main .home h1 {
+		width: 100%;
+		padding-top: 3.5em;
+		font-size: 1.8em !important;
+		line-height: 1.2em;
+	}
+
+	#main h1, #main hr {
+		margin-left: -8%;
+	}
+
+
+	.bio-photo {
+		max-width: 50%;
+	}
+
+	#about .punchline {
+		font-size: 1.1em;
+		letter-spacing: 0.01px;
+		text-justify : none;
+	}
+
+	#about p.about_main {
+		font-size: 1.2em;
+		text-align: left;
+		margin-bottom : 2em;
+		margin-right: -2em;
+	}
+
+	#about ul {
+		padding-left: 60px;
+	}
+
+
+    #about li {
+    	font-size : 1.1em;
+    }
+
+	.contact_info-main p {
+		font-size : 1.3em;
+	}
+
+	.contact_info-social {
+		text-align: center;
+	}
+
+	.social_button, .button-twitter, .button-github {
+		width: 60px;
+		height: 60px;
+	}
+
+	.social_button-name {
+		font-size: 1em;
+	}
 
 }
 
@@ -480,7 +583,8 @@ header.headermobile h1 {
 /* SMARTPHONES */
 @media screen and (max-width: 767px ) {
 
-	#main {
+     
+ 	#main {
 		padding : 0 5% 0 5%;
 	}
 
