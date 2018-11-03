@@ -163,7 +163,15 @@ hr {
 ******************************************************/	
 
 
+header.headermobile h1 {
 
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 10px;
+    padding: 3px 0 10px 10px;
+
+}
 
 
 
@@ -366,8 +374,6 @@ hr {
 }
 
 .contact_info-main p {
-	/*font-size: 1.8em;
-	line-height: 1.1em;*/
 	text-align : left;
 	color: #373c44;
 	font-size : 1.8em;
@@ -473,6 +479,81 @@ hr {
 
 /* SMARTPHONES */
 @media screen and (max-width: 767px ) {
-    
+
+	#main {
+		padding : 0 5% 0 5%;
+	}
+
+	#main section:first-child {
+		padding : 0;
+	}
+
+	#main h2 {
+		margin-top: 1.5em; 
+		font-weight: bold;
+		font-size: 1.3em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	#fill_up_section {
+		display: none!important;
+	}
+
+
+	#main .home h1 {
+		width: 100%;
+		padding-top: 3.5em;
+		font-size: 1.8em !important;
+		line-height: 1.2em;
+	}
+
+
+	.bio-photo {
+		max-width: 100%;
+		margin-bottom: 10px;
+	}
+
+	#about .punchline {
+		line-height: 1.3em;
+		font-size: 1.2em;
+		letter-spacing: 0.01px;
+		text-justify : none;
+	}
+
+	#about p.about_main {
+		font-size: 1.15em;
+		text-align: left;
+		margin-bottom : 2em;
+	}
+
+	#about ul {
+		padding-left: 30px;
+	}
+
+
+    #about li {
+    	font-size : 1.1em;
+    }
+
+	.contact_info-main p {
+		font-size : 1.3em;
+	}
+
+	.contact_info-social {
+		text-align: center;
+	}
+
+	.social_button, .button-twitter, .button-github {
+		width: 60px;
+		height: 60px;
+	}
+
+	.social_button-name {
+		font-size: 1em;
+	}
+
 }
 

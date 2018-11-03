@@ -321,7 +321,7 @@ header.headermobile button {
   
 		
 	#main .home h1{
-		background: transparent url('images/logo-medium.png') center center no-repeat;
+		/*background: transparent url('images/logo-medium.png') center center no-repeat;*/
 	}
 	
 
@@ -347,11 +347,7 @@ header.headermobile button {
 
      
   
-		
-	#main .home h1{
-		background: transparent url('images/logo-small.png') center center no-repeat;
-	}
-	
+
 	.scroll {
 		background-image: url('images/scroll-small.png');
 	} 

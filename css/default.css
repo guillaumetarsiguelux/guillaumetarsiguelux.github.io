@@ -868,6 +868,11 @@ html, body,
 /* TABLETS */
 @media screen and (max-width: 1020px ) {
      
+
+	a.clickable-link.link-very-discrete{
+		text-decoration: underline;
+	}
+
     .headerstandard .headerstandard-inner {
         width: 100%;
     }
