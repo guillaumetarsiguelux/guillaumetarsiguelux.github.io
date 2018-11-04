@@ -216,9 +216,8 @@ header.headermobile h1 {
 
 #casestudies li {
 	background: white;
-	height: 200px;
 	margin: 2em 0 2em 0;
-	padding: 1em 3em 1em 0;
+	padding: 1.5em 3em 0.5em 3em;
 	border-radius : 8px;
     box-shadow: 5px 5px 10px #888888;
  }
@@ -233,7 +232,7 @@ header.headermobile h1 {
 
 #casestudies li .casestudy-text {
 	color: black;
-	padding: 0.5em 3em 1em 3em;
+	/*padding: 0.5em 3em 1em 3em;*/
 }
 
 #casestudies li .casestudy-title{
@@ -643,6 +642,20 @@ header.headermobile h1 {
 
 	.social_button-name {
 		font-size: 1em;
+	}
+
+
+	#casestudies ul {
+		padding: 0;
+	}
+
+	#casestudies li .casestudy-title {
+		font-size: 2em;
+	}
+
+
+	#casestudies li p.casestudy-description {
+		font-size: 1.1em;
 	}
 
 }
