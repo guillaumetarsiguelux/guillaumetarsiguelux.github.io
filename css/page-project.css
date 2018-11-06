@@ -249,7 +249,7 @@ figcaption {
 }
 
 #project_conclusion-testimonials blockquote footer {
-	font-size: 1.3em;
+	font-size: 1.1em;
 	font-style: italic;
 	margin-left: 2em;
 }
@@ -448,28 +448,44 @@ margin : 3% auto auto auto;
 
 @media screen and (min-width: 768px) and (max-width: 1020px) {
 
+	#main {
+		padding : 0 8% 0 8%;
+	}
 
 	#main h1 {
 		font-size : 2em;
 	}
 
 	#main h2 {
-		font-size: 1.7em;
+		font-size: 1.6em;
 		letter-spacing: 0.1em;
 	}
 
 	#main h3 {
-		font-size: 1.5em;
+		font-size: 1.4em;
 		margin: 1em 0 1em 0;
 	}
+
+	#main section, #main section:first-child {
+		padding-top : 60px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#main section.subsection, #main section.project_substep {
+		margin: 0;
+		padding: 30px 0 0 0;
+	}
+
+
 
 	h4 {
 		font-size: 1.2em;
 	}
 
 	p {
-		font-size: 1.2em;
-		line-height: 1.3em;
+		font-size: 1.1em;
+		line-height: 1.2em;
 		text-indent: 0;
 		text-align: justify;
 
@@ -490,10 +506,12 @@ margin : 3% auto auto auto;
 		font-size : 1.3em;
 		line-height: 1.2em;
 		letter-spacing: 0.06em;
+		margin-top : 50px;
+		text-align: left;
 	}
 
 	#project_metadata {
-		margin-top : -2em ;
+		margin : -2em 2em 4em 0 ;
 	}
 
 	#project_metadata > section, #project_introduction-challenges_and_roles-wrapper > section {
@@ -508,10 +526,13 @@ margin : 3% auto auto auto;
 	#project_introduction-body {
 		text-indent: 0;
 		font-size : 1.3em;
-		line-height: 1.4em;
+		line-height: 1.3em;
+		text-align: left;
+		margin-bottom : 8%;
 	}
 
 	#project_conclusion-challenges_and_learnings li {
+		margin-left: -1.5em;
 
 	}
 
@@ -519,10 +540,32 @@ margin : 3% auto auto auto;
 		font-size : 1.5em;
 	}
 
+
+
+		#project_conclusion-testimonials blockquote {
+		margin : 3em 0 .75em 0 ;
+		font-size: 0.95em;
+		text-align: left;
+	}
+
 	#project_conclusion-testimonials blockquote footer {
-		font-size : 1.1em;
+		font-size : 0.9em;
+	}
+
+	#project_conclusion-testimonials blockquote::before {
+		margin-left : -0.45em;
 	}
 	
+
+
+	figcaption {
+    	font-size: 0.8em;
+    	padding: 0 6em 0 6em;
+	}
+
+	figure {
+		margin: 2em -3.2em 3em -3.2em;
+	}
 
 }
 
