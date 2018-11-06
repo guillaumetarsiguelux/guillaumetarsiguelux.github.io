@@ -381,7 +381,7 @@ header.headermobile h1 {
 	margin : 0 5% 0 5%;
 }
 
-.social_button, .button-facebook, .button-twitter, .button-github, .button-instagram {
+.social_button, .button-facebook, .button-twitter, .button-github, .button-instagram, .button-linkedin {
 	width: 80px;
 	height: 80px;
 	background-size: contain;
@@ -391,6 +391,10 @@ header.headermobile h1 {
 }
 
 
+.button-linkedin {
+	background-image: url("../images/linkedin_off.png");
+}
+
 .button-twitter {
 	background-image: url("../images/twitter_off.png");
 }
@@ -398,6 +402,7 @@ header.headermobile h1 {
 .button-github {
 	background-image: url("../images/github_off.png");
 }
+
 
 .social_button:hover {
 	color : #0a81d1;
@@ -408,16 +413,12 @@ header.headermobile h1 {
 	font-size: 1.3em;
 }
 
-.social_button:hover .button-facebook{
-	background-image: url("../images/facebook_on.png");
+.social_button:hover .button-linkedin{
+	background-image: url("../images/linkedin_on.png");
 }
 
 .social_button:hover .button-twitter {
 	background-image: url("../images/twitter_on.png");
-}
-
-.social_button:hover .button-instagram {
-	background-image: url("../images/instagram_on.png");
 }
 
 .social_button:hover .button-github {
@@ -536,7 +537,7 @@ header.headermobile h1 {
 		text-align: center;
 	}
 
-	.social_button, .button-twitter, .button-github {
+	.social_button, .button-twitter, .button-github, .button-linkedin {
 		width: 60px;
 		height: 60px;
 	}
@@ -633,7 +634,7 @@ header.headermobile h1 {
 		text-align: center;
 	}
 
-	.social_button, .button-twitter, .button-github {
+	.social_button, .button-twitter, .button-github, .button-linkedin {
 		width: 60px;
 		height: 60px;
 	}
