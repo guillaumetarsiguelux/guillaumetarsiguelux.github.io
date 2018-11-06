@@ -132,7 +132,7 @@ figcaption {
 
 
 #project_metadata {
-	margin: -5em 2em 7em 0;
+	margin: -1em 2em 7em 0;
 	font-size : 0.8em;
 	display : table;
 }
@@ -144,6 +144,7 @@ figcaption {
 
 #project_metadata p {
 	text-indent: 0;
+	text-align: left;
 }
 
 
