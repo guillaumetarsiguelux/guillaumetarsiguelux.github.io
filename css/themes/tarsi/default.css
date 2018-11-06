@@ -159,6 +159,11 @@ header.headermobile button {
 	background: transparent url('images/nav-icon.png') center center no-repeat;
 }
 
+header.headermobile button.button-back_to_portfolio {
+	background: transparent url('images/close.png') center center no-repeat;
+}
+
+
 		
 		
 		

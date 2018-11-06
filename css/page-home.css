@@ -45,9 +45,6 @@ p, li {
 	/*display: inline-block;*/
 }
 
-#main {
-	padding: 0 22% 0 22%;
-}
 
  #main section:first-child {
  	padding-top: 10%;
@@ -275,7 +272,7 @@ header.headermobile h1 {
 .bio-photo {
 	max-height: 500px;
 	max-width: 500px;
-	margin : 0 0 2% -5%; 
+	margin : 0 0 2% -15%; 
 	border-radius : 50%;
 	float : left;
     /*box-shadow: 5px 5px 5px black;*/

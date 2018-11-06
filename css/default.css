@@ -102,7 +102,10 @@ a:hover {}
 #container {
 	position: relative;
 	padding-bottom: 50%;
-	
+}
+
+#main {
+	padding: 0 22% 0 22%;
 }
 
 h1{
@@ -347,28 +350,28 @@ header.headermobile {
 	width: 100%;
 	height: auto;
 	margin: 0px auto 20px auto;
-	padding: 0px;
+	padding: 0 0 10px 0;
 	z-index: 10000;
 	display: none;
 }
 
-		header.headermobile h1 {
-			font-weight: 300;
-			text-align: center;
-			font-size: 2em;
-			margin-top: 10px;
-		}
+header.headermobile h1 {
+	font-weight: 300;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 10px;
+}
 
-		header.headermobile button {
-			position: absolute;
-			float: left;
-			display: block;
-			width: 40px;
-			height: 40px;
-			border: none;
-			cursor: pointer;
-			margin: 10px 10px 0px 10px;
-		}
+header.headermobile button {
+	position: absolute;
+	float: left;
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: none;
+	cursor: pointer;
+	margin: 10px 10px 0px 10px;
+}
 
 
 				.menumobile a {
