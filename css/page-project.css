@@ -732,4 +732,8 @@ margin : 3% auto auto auto;
 		margin-left : -0.45em;
 	}
 
+	#main section:last-child {
+		margin-bottom: 0;
+	}
+
 }
