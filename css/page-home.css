@@ -271,9 +271,9 @@ header.headermobile h1 {
 }
 
 .bio-photo {
-	max-height: 500px;
-	max-width: 500px;
-	margin : 0 0 2% -15%; 
+	max-height: 300px;
+	max-width: 300px;
+	margin : -5% 0 2% -15%; 
 	border-radius : 50%;
 	float : left;
     /*box-shadow: 5px 5px 5px black;*/
