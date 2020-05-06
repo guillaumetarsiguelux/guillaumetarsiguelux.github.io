@@ -53,11 +53,7 @@ p strong {
 	color: dimgrey;
 }
 
-p.text-left {
-	float: left;
-	width: 45%;
-	margin: 0;
-}
+
 
 .main_section {
 	margin: 2em 0 1em 0 ;
@@ -72,9 +68,6 @@ p.text-left {
 	margin : 2.5em 0 2.5em 0;
 }
 
-.project_substep-content.text-and-image {
-	display: flex;
-}
 
 figure {
 	margin: 3em 0 4.5em 0;
@@ -82,11 +75,7 @@ figure {
 	text-align: center;
 }
 
-figure.figure-right {
-	float: right;
-	width: 52%;
-	margin : 0;
-}
+
 
 figure > a > img {
 	max-width : 80%;
@@ -455,10 +444,25 @@ margin : 3% auto auto auto;
 
 
 
+@media screen and (min-width: 1020px) {
 
 
+	.project_substep-content.text-and-image {
+		display: flex;
+	}
+	p.text-left {
+		float: left;
+		width: 45%;
+		margin: 0;
+	}
 
+	figure.figure-right {
+		float: right;
+		width: 52%;
+		margin : 0;
+	}
 
+}
 
 /******************************************************
 
