@@ -64,9 +64,7 @@ p strong {
 	margin : 1em 0 1em 0;
 }
 
-.project_substep-content {
-	margin : 2.5em 0 2.5em 0;
-}
+
 
 
 figure {
@@ -443,10 +441,19 @@ margin : 3% auto auto auto;
 
 
 
+/******************************************************
 
-@media screen and (min-width: 1020px) {
+MEDIA QUERIES : COMPUTERS
+	
+******************************************************/	
 
 
+
+@media screen and (min-width: 1025px) {
+
+	.project_substep-content {
+		margin : 2.5em 0 2.5em 0;
+	}
 	.project_substep-content.text-and-image {
 		display: flex;
 	}
@@ -475,7 +482,7 @@ margin : 3% auto auto auto;
 
 /* TABLETS */
 
-@media screen and (min-width: 768px) and (max-width: 1020px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
 	#main {
 		padding : 0 8% 0 8%;
@@ -603,7 +610,7 @@ margin : 3% auto auto auto;
 
 /******************************************************
 
-	$INDEX12 - MEDIA QUERIES : SMARTPHONES
+MEDIA QUERIES : SMARTPHONES
 	
 ******************************************************/	
 
@@ -630,12 +637,12 @@ margin : 3% auto auto auto;
 	}
 
 	.main_section {
-		margin : 70px 0 10px 0;
+		margin : 0
 	}
 
 	#main section, #main section:first-child {
-		margin: 40px 0 30px 0;
-		padding : 60px 20px 20px 20px;
+		margin: 0;
+		padding : 0 1em 1em 1em;
 	}
 
 	#main section.subsection, #main section.project_substep {
@@ -645,7 +652,8 @@ margin : 3% auto auto auto;
 
 
 	#main h1 {
-		font-size : 2em;
+		font-size : 1.4em;
+		font-weight: 400;
 	}
 
 	/*#main h2 {
@@ -657,8 +665,14 @@ margin : 3% auto auto auto;
 	}*/
 
 	#main h2 {
-		font-size: 1.5em;
-		margin: 1em 0 .5em 0;
+		font-size: 1.1em;
+		margin: .5em 0 0em 0;
+		width: 100%;
+	}
+
+	h3 {
+		font-size: .9em;
+		margin : 0 0 1em 0;
 	}
 
 	h4 {
@@ -667,10 +681,14 @@ margin : 3% auto auto auto;
 	}
 
 	p {
-		font-size: 1em;
+		font-size: 0.88em;
 		line-height: 1.2em;
-		text-indent: 0;
-		margin : 10% 0 10% 0;
+		text-indent: 5%;
+		margin : 2% 0 2% 0;
+	}
+
+	ul {
+		margin : 0;
 	}
 
 	li p {
@@ -679,11 +697,11 @@ margin : 3% auto auto auto;
 
 	figcaption {
     	font-size: 0.7em;
-    	padding: 0 6em 0 6em;
+    	padding: 0 .5em 0 .5em;
 	}
 
 	figure {
-		margin: 2em -3.2em 3em -3.2em;
+		margin: 1em 0 2em 0;
 	}
 
 	.listwrapper {
@@ -701,16 +719,15 @@ margin : 3% auto auto auto;
 
 
 	#project_tagline {
-	    font-size: 1.1em;
+	    font-size: 0.9em;
    		line-height: 1em;
     	letter-spacing: 0.07em;
     	text-align: left;
-    	margin: 50px 0 0 0;
+    	margin: 0 0 0 0;
     }
 
 	#project_metadata {
-		margin-top : 2em ;
-		margin : 2em 0 3em 0;
+		margin : 0;
 	}
 
 	
@@ -726,8 +743,8 @@ margin : 3% auto auto auto;
 	}
 
 	#project_metadata p {
-		font-size: 1.1em;
-		margin: 5% 0 5% 0;
+		font-size: .9em;
+		margin: .0 0 .9em 0;
 	}
 
 	#project_introduction-body {
